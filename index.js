@@ -809,6 +809,13 @@ function buildReceiverPage(encryptedPayload, passcode) {
 
     <div class="card">
         <div class="header">
+            <svg class="logo" width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 0.5rem; filter: drop-shadow(0 0 12px rgba(0, 255, 204, 0.4));">
+              <path d="M5 4H19L11 12H16L8 20H22" 
+                    stroke="var(--cyan)" 
+                    stroke-width="2" 
+                    stroke-linecap="round" 
+                    stroke-linejoin="miter" />
+            </svg>
             <div class="brand">zshare</div>
             <div class="brand-sub">// ENCRYPTED TRANSFER</div>
         </div>
@@ -1169,6 +1176,13 @@ function buildTransmitterPage(passcode) {
 
     <div class="card">
         <div class="header">
+            <svg class="logo" width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 0.5rem; filter: drop-shadow(0 0 12px rgba(0, 255, 204, 0.4));">
+              <path d="M5 4H19L11 12H16L8 20H22" 
+                    stroke="var(--cyan)" 
+                    stroke-width="2" 
+                    stroke-linecap="round" 
+                    stroke-linejoin="miter" />
+            </svg>
             <div class="brand">zshare</div>
             <div class="brand-sub">// SECURE UPLINK</div>
         </div>
