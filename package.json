@@ -1,0 +1,30 @@
+{
+  "name": "zshare",
+  "version": "2.0.0",
+  "description": "Zero-Config End-to-End Encrypted Local P2P Transfer CLI tool",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "zshare": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "webrtc",
+    "p2p",
+    "cli",
+    "encrypted",
+    "file-transfer",
+    "local-network",
+    "zero-config",
+    "glassmorphism"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "werift": "^0.23.0",
+    "ws": "^8.21.0"
+  }
+}
